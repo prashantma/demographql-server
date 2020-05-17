@@ -1,0 +1,48 @@
+{
+  "name": "graphql-todo-server",
+  "version": "1.1.0",
+  "description": "GraphQL Todo Server",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "./node_modules/.bin/eslint --ext .js src/",
+    "lint-fix": "./node_modules/.bin/eslint --fix --ext .js src/",
+    "test": "./node_modules/lab/bin/lab --verbose -m 180000 -M 30000"
+  },
+  "author": "Prashant Mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "graphql": "^15.0.0",
+    "graphql-playground-middleware-express": "^1.7.14",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.3.1",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.7",
+    "supertest": "^4.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "code": "^5.2.4",
+    "eslint": "^6.8.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "faker": "^4.1.0",
+    "lab": "^17.3.0",
+    "prettier": "^1.16.1"
+  }
+}

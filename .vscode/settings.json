@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "appService.defaultWebAppToDeploy": "/subscriptions/4111e86d-4ee6-4884-b3fc-7501fb4bd7fb/resourceGroups/Default-Web-EastUS/providers/Microsoft.Web/sites/demographql-sevenseasteam",
+  "appService.deploySubpath": ""
+}
